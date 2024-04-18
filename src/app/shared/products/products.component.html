@@ -1,0 +1,25 @@
+<div class="item-container">
+<div class="product">
+    <div class="flex wrap gap-1em">
+      <button mat-fab color="primary" class="left" [disabled]="isLeftDisabled" (click)="handleOnSlide('left')">
+        <mat-icon>chevron_left</mat-icon>
+      </button>
+      <button mat-fab color="primary" class="right" [disabled]="isRightDisabled" (click)="handleOnSlide('right')">
+        <mat-icon>chevron_right</mat-icon>
+      </button>
+      <mat-card class="card" *ngFor="let img of image">
+        <mat-card-header>
+          <mat-card-title>Shiba Inu</mat-card-title>
+        </mat-card-header>
+        <div class="images">
+          <img mat-card-image [src]="img.src" alt="laptop1">
+        </div>
+        <mat-card-content>
+          <p>
+            Vaio
+          </p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

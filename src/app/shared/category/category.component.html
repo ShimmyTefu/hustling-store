@@ -1,0 +1,22 @@
+<div class="item-container">
+  <div class="flex wrap gap-1em">
+    <ngb-carousel #carousel [interval]="5000"  *ngFor="let img of Image" >
+      <ng-template *ngFor="let img of Image" ngbSlide >
+        <mat-card class="card flex wrap gap-1em" >
+          <mat-card-header>
+            <mat-card-title>Shiba Inu</mat-card-title>
+          </mat-card-header>
+          <div class="images">
+            <img mat-card-image [src]="img.src" alt="laptop1">
+          </div>
+          <mat-card-content>
+            <p>
+              Vaio
+            </p>
+          </mat-card-content>
+        </mat-card>
+      </ng-template>
+    </ngb-carousel>
+    
+  </div>
+</div>

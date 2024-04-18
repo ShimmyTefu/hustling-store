@@ -1,0 +1,50 @@
+.home-container{
+    // background-image: url(../../../assets/images/wallpaper_3.jpg);
+    height: 350px;
+    background-color: black;
+    // width: 100%;
+    background-size: cover;
+    position: relative;
+    .home-content {
+        position: absolute;
+        right: 2em;
+        bottom: 2em;
+        width: 40%;
+        color: white;
+        text-align: right;
+        h2 {
+            font-size: xxx-large;
+        }
+        p {
+            font-size: x-large;
+        }
+    }
+
+}
+.cat-section{
+    height: 300px;
+    margin: 30px;
+}
+
+.btn-radius {
+    border-radius: 20px;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.footer-item {
+    height: 50px;
+    padding: 0 1em;
+    &:hover {
+        color: lightgray;
+    }
+}
+
+.border-right {
+    border-right: 1px solid lightgray;
+}
+
+
+//carousel

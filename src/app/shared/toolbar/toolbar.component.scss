@@ -1,0 +1,19 @@
+span{
+    cursor: pointer;
+}
+.toolbar{
+    display: flex;
+    position: fixed;
+    z-index: 4;
+    img {
+        height: 64px;
+        width: 64px;
+    }
+}
+
+    @media screen and (min-width: 480px) {
+        .mat-toolbar{
+            display: flex;
+        }
+      }
+  
